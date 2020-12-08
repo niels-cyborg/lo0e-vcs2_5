@@ -13,7 +13,7 @@
             <p id="version">Versie: 1.0</p>
         </header>
 
-
+        <main>
             <article id="introductie">
                 <header>
                     <div class="title">
@@ -49,7 +49,6 @@
                 </section>
             </article>
 
-
             <article id="student-naam">
                 <header>
                     <div class="title">
@@ -64,7 +63,7 @@
                     <h3>Opdracht</h3>
                     <p>
                         Voor je begint met het aanpassen van de code,
-                        zorg dat je in de <strong>master</strong> branch zit.
+                        zorg dat je in de <strong class="badge branch">master</strong> branch zit.
                     </p>
 
                     <ul>
@@ -89,10 +88,10 @@
                     <h3>Opdracht</h3>
                     <p>
                         Voor je begint met het aanpassen van de code,
-                        zorg dat je in de <strong>master</strong> branch zit.
+                        zorg dat je in de <strong class="badge branch">master</strong> branch zit.
                     </p>
                     <ul>
-                        <li>Maak een nieuwe branch: <strong>afbeeldingen</strong></li>
+                        <li>Maak een nieuwe branch: <strong class="badge branch">afbeeldingen</strong></li>
                         <li>Controleer dat je in deze branch zit</li>
                         <li>
                             Zoek een passende afbeelding voor dit hoofdstuk (id=afbeeldingen),
@@ -103,12 +102,12 @@
                             zodat de nieuw toegevoegde afbeelding zichtbaar.
                         </li>
                         <li>Commit deze wijziging</li>
-                        <li>Ga terug naar de <strong>master</strong> branch.</li>
+                        <li>Ga terug naar de <strong class="badge branch">master</strong> branch.</li>
                         <li>
-                            <em>Merge</em> de aanpassingen van 
-                            <strong>afbeeldingen</strong> naar
-                            <strong>master</strong>.
-                        <li>Push de <strong>master</strong> branch naar github</li>
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">afbeeldingen</strong> naar
+                            <strong class="badge branch">master</strong>.
+                        <li>Push de <strong class="badge branch">master</strong> branch naar github</li>
                     </ul>
                 </section>
             </article>
@@ -130,32 +129,33 @@
                 <section>
                     <h3>Hulk</h3>
                     <ul>
-                        <li>Zorg dat je in de <strong>master</strong> branch zit</li>
-                        <li>Begin een nieuwe branch: <strong>hulk</strong></li>
+                        <li>Zorg dat je in de <strong class="badge branch">master</strong> branch zit</li>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">hulk</strong></li>
                         <li>Pas de hierboven aangegeven winnaar (id=winnaar) aan naar: <em>Hulk</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
                     <h3>Superman</h3>
                     <ul>
-                        <li>Ga terug naar de <strong>master</strong> branch</li>
-                        <li>Begin een nieuwe feature branch: <strong>superman</strong></li>
+                        <li>Ga terug naar de <strong class="badge branch">master</strong> branch</li>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">superman</strong></li>
                         <li>Pas de hierboven aangegeven winnaar (id=winnaar) aan naar: <em>Superman</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
                     <h3>Conflict!</h3>
                     <ul>
-                        <li>Ga terug naar de <strong>master</strong> branch</li>
+                        <li>Ga terug naar de <strong class="badge branch">master</strong> branch</li>
                         <li>
-                            <em>Merge</em> de aanpassingen van <strong>superman</strong> naar
-                            <strong>master</strong>.
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">superman</strong> naar
+                            <strong class="badge branch">master</strong>.
                         </li>
                         <li>Controleer of superman de winnaar is (refresh de pagina).</li>
                         <li>
-                            <em>Merge</em> de aanpassingen van 
-                            <strong>hulk</strong> naar
-                            <strong>master</strong>.
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">hulk</strong> naar
+                            <strong class="badge branch">master</strong>.
                         </li>
                         <li>
                             <strong>Conflict!</strong>
@@ -171,7 +171,7 @@
                         </li>
                         <li>Zorg dat <em>Hulk</em> de winnaar is.</li>
                         <li>Commit de merge</li>
-                        <li>Push de <strong>master</strong> branch naar github</li>
+                        <li>Push de <strong class="badge branch">master</strong> branch naar github</li>
                     </ul>
                 </section>
             </article>
@@ -180,10 +180,10 @@
                 <header>
                     <div class="title">
                         <h2>4. Een conflict oplossen</h2>
-                        <p>Soms is er bij een conflict geen keuzen, maar moet je handmatig de wijzigingen samen voegen.</p>
+                        <p>Soms is er bij een conflict geen keuze, maar moet je handmatig de wijzigingen samen voegen.</p>
                         <p>
                             Donaties:
-                            <span id="donaties">&euro; 0,00</span>
+                            <span id="donaties">&euro; 1,99</span>
                         </p>
                     </div>
                     <div class="meta">
@@ -194,33 +194,33 @@
                 <section>
                     <h3>Gulle gever</h3>
                     <ul>
-                        <li>Zorg dat je in de <strong>master</strong> branch zit</li>
-                        <li>Begin een nieuwe branch: <strong>gulle-gever</strong></li>
-                        <li>Pas het hierboven aangegeven donatiebedrag (id=winnaar) aan naar: <em>100,00</em></li>
+                        <li>Zorg dat je in de <strong class="badge branch">master</strong> branch zit</li>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">gulle-gever</strong></li>
+                        <li>Pas het hierboven aangegeven donatiebedrag (id=donaties) aan naar: <em>100,00</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
                     <h3>Dagobert Duck</h3>
                     <ul>
-                        <li>Ga terug naar de <strong>master</strong> branch</li>
-                        <li>Begin een nieuwe feature branch: <strong>dagobert-duck</strong></li>
-                        <li>Pas het hierboven aangegeven donatiebedrag (id=winnaar) aan naar: <em>1,99</em></li>
+                        <li>Ga terug naar de <strong class="badge branch">master</strong> branch</li>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">dagobert-duck</strong></li>
+                        <li>Pas het hierboven aangegeven donatiebedrag (id=donaties) aan naar: <em>1,99</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
                     <h3>Conflict!</h3>
                     <ul>
-                        <li>Ga terug naar de <strong>master</strong> branch</li>
+                        <li>Ga terug naar de <strong class="badge branch">master</strong> branch</li>
                         <li>
-                            <em>Merge</em> de aanpassingen van 
-                            <strong>dagobert-duck</strong> naar
-                            <strong>master</strong>.
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">dagobert-duck</strong> naar
+                            <strong class="badge branch">master</strong>.
                         </li>
-                        <li>Controleer of superman de winnaar is (refresh de pagina).</li>
+                        <li>Controleer of de donatie 1,99 is (refresh de pagina).</li>
                         <li>
-                            <em>Merge</em> de aanpassingen van 
-                            <strong>gulle-gever</strong> naar
-                            <strong>master</strong>.
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">gulle-gever</strong> naar
+                            <strong class="badge branch">master</strong>.
                         </li>
                         <li>
                             <strong>Conflict!</strong>
@@ -235,8 +235,9 @@
                             </pre>
                         </li>
                         <li>Zorg dat de donaties bij elkaar worden opgeteld.</li>
+                        <li>Controleer of het donatiebedrag correct is (refresh de pagina).</li>
                         <li>Commit de merge</li>
-                        <li>Push de <strong>master</strong> branch naar github</li>
+                        <li>Push de <strong class="badge branch">master</strong> branch naar github</li>
                     </ul>
                 </section>
             </article>
@@ -245,7 +246,9 @@
                 <header>
                     <div class="title">
                         <h2>5. Een branch rebasen</h2>
-                        <p id="branch">master</p>
+                        <p>
+                            <span id="branch" class="badge branch">master</span>
+                        </p>
                     </div>
                     <div class="meta">
                         <img src="images/rebase.png">
@@ -255,36 +258,43 @@
                 <section>
                     <h3>Nieuwe branch</h3>
                     <ul>
-                        <li>Zorg dat je in de <strong>master</strong> branch zit</li>
-                        <li>Begin een nieuwe branch: <strong>rebase</strong></li>
+                        <li>Zorg dat je in de <strong class="badge branch">master</strong> branch zit</li>
+                        <li>Begin een nieuwe branch: <strong class="badge branch">rebase</strong></li>
                         <li>Pas het hierboven aangegeven branch naam (id=branch) aan naar: <em>rebase</em></li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
                     <h3>No Span(g)</h3>
                     <ul>
-                        <li>Ga terug naar de <strong>master</strong> branch</li>
+                        <li>Ga terug naar de <strong class="badge branch">master</strong> branch</li>
                         <li>
                             Pas het hierboven aangegeven element (id=branch) aan van een 
-                            <strong>p</strong> naar een
-                            <strong>h6</strong>>
+                            <strong>span</strong> naar een
+                            <strong>h6</strong>
                         </li>
                         <li>Commit deze wijziging.</li>
                     </ul>
 
                     <h3>Rebase!</h3>
                     <ul>
-                        <li>Ga terug naar de <strong>rebase</strong> branch</li>
+                        <li>Ga terug naar de <strong class="badge branch">rebase</strong> branch</li>
                         <li>
-                            <em>Rebase</em> de branch bovenop de <strong>master</strong>  branch
+                            <em class="badge rebase">Rebase</em> de branch bovenop de <strong class="badge branch">master</strong>  branch
                         </li>
-                        <li>Los het conflict op, controleer het resultaat en maak een commit</li>
                         <li>
-                            <em>Merge</em> de aanpassingen van 
-                            <strong>rebase</strong> naar
-                            <strong>master</strong>.
+                            Los het conflict op, controleer het resultaat en maak een commit.<br>
+                            In het eind resultaat heb je dan een <strong>h6</strong> met daarin <em>Rebase</em>
+                            <pre>
+                                <code>
+&lt;h6 id="branch"&gt;rebase&lt;/h6&gt;
+                            </code></pre>
                         </li>
-                        <li>Push de <strong>master</strong> branch naar github</li>
+                        <li>
+                            <em class="badge merge">Merge</em> de aanpassingen van 
+                            <strong class="badge branch">rebase</strong> naar
+                            <strong class="badge branch">master</strong>.
+                        </li>
+                        <li>Push de <strong class="badge branch">master</strong> branch naar github</li>
                     </ul>
                 </section>
             </article>
@@ -304,7 +314,7 @@
                     <h3>Opdracht</h3>
                     <p>
                         Voor je begint met het aanpassen van de code,
-                        zorg dat je in de <strong>master</strong> branch zit.
+                        zorg dat je in de <strong class="badge branch">master</strong> branch zit.
                     </p>
                     <ul>
                         <li>Verhoog de versie (id=version) met 0.1</li>
